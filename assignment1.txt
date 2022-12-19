@@ -1,0 +1,20 @@
+DIFFERENCE BETWEEN SIGNED AND UNSIGNED INT
+
+The main difference between signed and unsigned integer is that the starting bit of the integer in binary format decides whether it is a positive or negative value in signed integer, so
+there are no negative values in unsigned integers which means if signed integer has values from -255 to 256 , unsigned would have 0 to 256*2 capacity.
+
+So if we already know that program doesnt need negative integers we can use unsigned integer which would save a lot of unused memory.
+
+DIFFERENCE BETWEEN GO AND JAVA
+
+There are some important differences which are go is easy to code because java is invented long back and there are many packages , so the learning curve is more in java.
+the next main thing would be java program is platform independent because of the jvm but go complies differently for each platform.
+next thing would be garbage collection which is better in go than java
+
+DIFFERENCE BETWEEN GO AND PYTHON
+
+Python has classes and objects similar to java but go does not have it.
+python is dynamically typed it has an interpreter but go is statically typer it has compiler
+python supports exceptions, go has no exceptions only errors.
+
+
