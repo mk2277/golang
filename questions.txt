@@ -1,0 +1,43 @@
+1)Microservice:
+previously monolithics architecture was used for complete applications, even the applications used to be smaller.
+But due to increased complexity the architecture is divided into many multiple smaller sized components whcih we call them as microservices.
+The main advantages of microservice is that one microservice is not linked to other microservice.
+Which makes the development easy without depending on other teams
+Also this makes the application larger and scalable according to the needs of the users
+Disadvantage is that microservice become many when we are increasing the components in the project ,which makes the calling of microservices harder
+And since there are many services running , and if a microservice is under problem,it would be harder to detect the root problem.
+
+2)Restful:
+An api can be called as restful or restful api if it follows the rules of REST.
+api are generally used to communicate between the servers or software systems.
+The rules of rest api are 
+clinet server difference like who is asking and who is sending
+stateless meaning every request should be addressed by the server using some information
+Similar terminology meaning all api use same http names such as get put post delete
+cache meaning clients data can be cached.
+
+3)monolithic:
+This architecture means that the entire application is done as a single unit, as in the name mono
+This is very useful when the application is smaller and can be easily deployed
+But if there is any problem in it , entire application goes down
+microservice:
+in this the big unit of application is divided into smaller chunks called microservices as in the name micro
+These services have their own business logic and database which are independent to other services.
+This independency helps to build complex applications
+
+4)rest api vs soap api
+rest api has rules which are simple and easy for web appplications,but soap is protocol which uses set of rules which are
+more complex than rest api rules.This means that there is more security when it comes to soap api.
+soap uses xml formatting which is also more into function driven,but rest api supports html,xml.json which is best suited for web applications
+which is more data driven.So we can call a function in rest by using /somefunction but in rest we have to use something like calling somefunction()
+Other main difference would be caching data which is only possible in rest api.
+
+5)http request
+This is normally performed by a client, the one who needs data
+When the client makes a request using the url it fetches the url data from a server
+in detail the get method is called by the http protocol which responses with the data of the url
+
+6)endpoint
+To connect to a service we use a endpoint.So this endpoint is like a entry point to that service we need.
+handler
+this is a function or method which returns a response or request information between endpoints or services.
